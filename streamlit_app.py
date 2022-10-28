@@ -9,7 +9,6 @@ streamlit.text('🥑🍞 Avacado toast')
 
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.text('Pick some fruits')
-my_cur.execute("insert into fruit_load_list values ('from streamlit')")
 
 import pandas
 my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
